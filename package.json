@@ -36,7 +36,8 @@
     "build": "tsup",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "demo": "vite demo"
+    "demo": "vite demo",
+    "demo:build": "vite build demo"
   },
   "peerDependencies": {
     "react": ">=18"
